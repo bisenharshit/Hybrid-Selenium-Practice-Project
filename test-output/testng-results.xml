@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-13T01:40:18 IST" name="Suite" finished-at="2024-05-13T01:40:42 IST" duration-ms="24181">
+    <groups>
+    </groups>
+    <test started-at="2024-05-13T01:40:18 IST" name="Test" finished-at="2024-05-13T01:40:42 IST" duration-ms="24181">
+      <class name="com.qa.petstore.test.PetStoreTest">
+        <test-method is-config="true" signature="basicConfigSetup()[pri:0, instance:com.qa.petstore.test.PetStoreTest@39ac0c0a]" started-at="2024-05-13T01:40:15 IST" name="basicConfigSetup" finished-at="2024-05-13T01:40:18 IST" duration-ms="2959" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basicConfigSetup -->
+        <test-method is-config="true" signature="windowUrlSetupWithExtentReporter()[pri:0, instance:com.qa.petstore.test.PetStoreTest@39ac0c0a]" started-at="2024-05-13T01:40:18 IST" name="windowUrlSetupWithExtentReporter" finished-at="2024-05-13T01:40:19 IST" duration-ms="1364" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- windowUrlSetupWithExtentReporter -->
+        <test-method is-config="true" signature="windowSizeSetup()[pri:0, instance:com.qa.petstore.test.PetStoreTest@39ac0c0a]" started-at="2024-05-13T01:40:19 IST" name="windowSizeSetup" finished-at="2024-05-13T01:40:19 IST" duration-ms="92" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- windowSizeSetup -->
+        <test-method is-config="true" signature="cookiesGettingSetup()[pri:0, instance:com.qa.petstore.test.PetStoreTest@39ac0c0a]" started-at="2024-05-13T01:40:19 IST" name="cookiesGettingSetup" finished-at="2024-05-13T01:40:19 IST" duration-ms="24" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cookiesGettingSetup -->
+        <test-method signature="testCase_1_Landing_On_HomePage_with_Scroll()[pri:1, instance:com.qa.petstore.test.PetStoreTest@39ac0c0a]" started-at="2024-05-13T01:40:19 IST" name="testCase_1_Landing_On_HomePage_with_Scroll" finished-at="2024-05-13T01:40:19 IST" duration-ms="36" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase_1_Landing_On_HomePage_with_Scroll -->
+        <test-method is-config="true" signature="cookiesGettingSetup()[pri:0, instance:com.qa.petstore.test.PetStoreTest@39ac0c0a]" started-at="2024-05-13T01:40:19 IST" name="cookiesGettingSetup" finished-at="2024-05-13T01:40:19 IST" duration-ms="25" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cookiesGettingSetup -->
+        <test-method signature="testcase_2_SignUp_On_Website()[pri:2, instance:com.qa.petstore.test.PetStoreTest@39ac0c0a]" started-at="2024-05-13T01:40:19 IST" name="testcase_2_SignUp_On_Website" finished-at="2024-05-13T01:40:25 IST" duration-ms="5129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase_2_SignUp_On_Website -->
+        <test-method is-config="true" signature="cookiesGettingSetup()[pri:0, instance:com.qa.petstore.test.PetStoreTest@39ac0c0a]" started-at="2024-05-13T01:40:25 IST" name="cookiesGettingSetup" finished-at="2024-05-13T01:40:25 IST" duration-ms="49" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cookiesGettingSetup -->
+        <test-method signature="testcase_3_SignIn_On_Website()[pri:3, instance:com.qa.petstore.test.PetStoreTest@39ac0c0a]" started-at="2024-05-13T01:40:25 IST" name="testcase_3_SignIn_On_Website" finished-at="2024-05-13T01:40:28 IST" duration-ms="3532" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase_3_SignIn_On_Website -->
+        <test-method is-config="true" signature="cookiesGettingSetup()[pri:0, instance:com.qa.petstore.test.PetStoreTest@39ac0c0a]" started-at="2024-05-13T01:40:28 IST" name="cookiesGettingSetup" finished-at="2024-05-13T01:40:28 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cookiesGettingSetup -->
+        <test-method signature="testcase_4_AddToCart_On_Website()[pri:4, instance:com.qa.petstore.test.PetStoreTest@39ac0c0a]" started-at="2024-05-13T01:40:28 IST" name="testcase_4_AddToCart_On_Website" finished-at="2024-05-13T01:40:32 IST" duration-ms="4198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase_4_AddToCart_On_Website -->
+        <test-method is-config="true" signature="cookiesGettingSetup()[pri:0, instance:com.qa.petstore.test.PetStoreTest@39ac0c0a]" started-at="2024-05-13T01:40:32 IST" name="cookiesGettingSetup" finished-at="2024-05-13T01:40:32 IST" duration-ms="73" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cookiesGettingSetup -->
+        <test-method signature="testcase_5_Proceed_To_Checkout_On_Website()[pri:5, instance:com.qa.petstore.test.PetStoreTest@39ac0c0a]" started-at="2024-05-13T01:40:32 IST" name="testcase_5_Proceed_To_Checkout_On_Website" finished-at="2024-05-13T01:40:37 IST" duration-ms="5035" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase_5_Proceed_To_Checkout_On_Website -->
+        <test-method is-config="true" signature="cookiesGettingSetup()[pri:0, instance:com.qa.petstore.test.PetStoreTest@39ac0c0a]" started-at="2024-05-13T01:40:37 IST" name="cookiesGettingSetup" finished-at="2024-05-13T01:40:38 IST" duration-ms="22" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cookiesGettingSetup -->
+        <test-method signature="testcase_6_Product_Booking_Details_On_Website()[pri:6, instance:com.qa.petstore.test.PetStoreTest@39ac0c0a]" started-at="2024-05-13T01:40:38 IST" name="testcase_6_Product_Booking_Details_On_Website" finished-at="2024-05-13T01:40:39 IST" duration-ms="1899" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase_6_Product_Booking_Details_On_Website -->
+        <test-method is-config="true" signature="cookiesGettingSetup()[pri:0, instance:com.qa.petstore.test.PetStoreTest@39ac0c0a]" started-at="2024-05-13T01:40:39 IST" name="cookiesGettingSetup" finished-at="2024-05-13T01:40:39 IST" duration-ms="57" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cookiesGettingSetup -->
+        <test-method signature="testcase_7_SignOut_On_Website()[pri:7, instance:com.qa.petstore.test.PetStoreTest@39ac0c0a]" started-at="2024-05-13T01:40:39 IST" name="testcase_7_SignOut_On_Website" finished-at="2024-05-13T01:40:42 IST" duration-ms="2557" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase_7_SignOut_On_Website -->
+        <test-method is-config="true" signature="project_Database_Config_setup()[pri:0, instance:com.qa.petstore.test.PetStoreTest@39ac0c0a]" started-at="2024-05-13T01:40:42 IST" name="project_Database_Config_setup" finished-at="2024-05-13T01:40:42 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- project_Database_Config_setup -->
+        <test-method is-config="true" signature="cookies_Deleting_Setup()[pri:0, instance:com.qa.petstore.test.PetStoreTest@39ac0c0a]" started-at="2024-05-13T01:40:42 IST" name="cookies_Deleting_Setup" finished-at="2024-05-13T01:40:42 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cookies_Deleting_Setup -->
+        <test-method is-config="true" signature="closing_All_The_Resources()[pri:0, instance:com.qa.petstore.test.PetStoreTest@39ac0c0a]" started-at="2024-05-13T01:40:43 IST" name="closing_All_The_Resources" finished-at="2024-05-13T01:40:46 IST" duration-ms="3210" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closing_All_The_Resources -->
+      </class> <!-- com.qa.petstore.test.PetStoreTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
