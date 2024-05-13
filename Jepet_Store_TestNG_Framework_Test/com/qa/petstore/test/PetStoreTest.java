@@ -1,5 +1,9 @@
 package com.qa.petstore.test;
 
+import java.io.IOException;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
@@ -14,9 +18,10 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-import com.qa.petstore.commonutility.BasicPetStoreUtility;
+import com.qa.petstore.Json.Mapper.JSON_Data_Mapper;
 import com.qa.petstore.pageobjects.AddtoCartPageObject;
 import com.qa.petstore.pageobjects.JavaScriptPageObjectForScroll;
 import com.qa.petstore.pageobjects.ProceedToCheckOutPageObject;
@@ -31,8 +36,8 @@ public class PetStoreTest{
 
 	public WebDriver driver;
 	public JavaScriptPageObjectForScroll j;
-	public String username = "johnwatson169";
-	public String password = "Jhon@123";
+	public String username;
+	public String password;
     
 	
 	
@@ -78,15 +83,20 @@ public class PetStoreTest{
 
 	}
 
-	@Test(priority = 2)
-	public void testcase_2_SignUp_On_Website() throws InterruptedException {
+	 // Data Pass By JSON File
+	@Test(priority = 2, dataProvider = "getData")
+	public void testcase_2_SignUp_On_Website(Map<String, String> input) throws InterruptedException {
 		SignUpPageObject sup = new SignUpPageObject(driver);
-		sup.SignUp_Method(username, password);
-
+		username =input.get("uname"); password = input.get("pass");
+		sup.SignUp_Method(username, password,input.get("rpass"),input.get("fname"),input.get("lname"),input.get("email"),input.get("phone"),input.get("addr1"),input.get("addr2"),input.get("city"),input.get("state"),input.get("zip"), input.get("country"));
+		
 	}
 
+	
 	@Test(priority = 3)
 	public void testcase_3_SignIn_On_Website() throws InterruptedException {
+		//Assert.assertEquals(driver.getCurrentUrl(), "https://jpetstore.aspectran.com/account/signonForm"); 
+		// Data Pass same by JSON file only
 		SignInPageObject sin = new SignInPageObject(driver);
 		sin.SignIn_Method(username, password);
 
@@ -100,7 +110,8 @@ public class PetStoreTest{
 	}
 
 	@Test(priority = 5)
-	public void testcase_5_Proceed_To_Checkout_On_Website() throws InterruptedException {
+	public void testcase_5_Proceed_To_Checkout_On_Website() throws InterruptedException, IOException {
+		//Data send by the property files
 		ProceedToCheckOutPageObject ptc = new ProceedToCheckOutPageObject(driver);
 		ptc.Proceed_To_Checkout_Method();
 
@@ -136,7 +147,44 @@ public class PetStoreTest{
 		System.out.println("All Resources Successfully Closed");
 		driver.close();
 	}
+	
+	
+	@DataProvider
+	public Object[][] getData() throws IOException {
+
+		List<HashMap<String, String>> data = JSON_Data_Mapper.getJsonDataToMap();
+		//For Data Driver with different sets of data
+//		return new Object[][] { { data.get(0) }, { data.get(1) } };
+		
+		//For single set of data
+		return new Object[][] { { data.get(0) } };
+		
+	}
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 //public void jPetStore_Project_Complete_Demo() throws InterruptedException {

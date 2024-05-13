@@ -72,30 +72,30 @@ public class SignUpPageObject {
 		PageFactory.initElements(driver, this);
 	}
 
-	public void SignUp_Method(String username1, String password1) throws InterruptedException {
+	public void SignUp_Method(String un, String ps, String rps,String fn, String ln, String em, String phn, String adr1, String adr2, String cty, String st, String zp, String con) throws InterruptedException {
 
 		Signup.click();
 		JavaScriptPageObjectForScroll j = new JavaScriptPageObjectForScroll(driver);
 		j.javaScriptScrollMethod(0, 350);
 		Thread.sleep(200);
 		// User Information
-		username.sendKeys(username1);
-		password.sendKeys(password1);
-		rpassword.sendKeys(password1);
+		username.sendKeys(un);
+		password.sendKeys(ps);
+		rpassword.sendKeys(rps);
 		// Account Information
-		firstName.sendKeys("Jhon");
-		lastName.sendKeys("Watson");
-		email.sendKeys("jhonwatson@gmail.com");
-		phone.sendKeys("9254789561");
+		firstName.sendKeys(fn);
+		lastName.sendKeys(ln);
+		email.sendKeys(em);
+		phone.sendKeys(phn);
 		Thread.sleep(200);
 		j.javaScriptScrollMethod(0, 635);
 		Thread.sleep(200);
-		address1.sendKeys("Rowden Street");
-		address2.sendKeys("Khau Gali");
-		city.sendKeys("Kolkata");
-		state.sendKeys("West Bengal");
-		zip.sendKeys("411022");
-		country.sendKeys("India");
+		address1.sendKeys(adr1);
+		address2.sendKeys(adr2);
+		city.sendKeys(cty);
+		state.sendKeys(st);
+		zip.sendKeys(zp);
+		country.sendKeys(con);
 		// Profile Information
 		Select select = new Select(languagePreference);
 		select.selectByValue("german");

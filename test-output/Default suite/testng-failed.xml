@@ -6,11 +6,16 @@
       <class name="com.qa.petstore.test.PetStoreTest">
         <methods>
           <include name="testcase_3_SignIn_On_Website"/>
+          <include name="windowUrlSetupWithExtentReporter"/>
           <include name="basicConfigSetup"/>
-          <include name="testcase_2_SignUp_On_Website"/>
+          <include name="closing_All_The_Resources"/>
+          <include name="windowSizeSetup"/>
+          <include name="project_Database_Config_setup"/>
           <include name="testcase_4_AddToCart_On_Website"/>
           <include name="testcase_5_Proceed_To_Checkout_On_Website"/>
+          <include name="cookies_Deleting_Setup"/>
           <include name="testcase_6_Product_Booking_Details_On_Website"/>
+          <include name="cookiesGettingSetup"/>
           <include name="testcase_7_SignOut_On_Website"/>
         </methods>
       </class> <!-- com.qa.petstore.test.PetStoreTest -->

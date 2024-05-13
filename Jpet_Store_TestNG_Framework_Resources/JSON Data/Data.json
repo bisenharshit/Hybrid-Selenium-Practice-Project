@@ -1,0 +1,37 @@
+[
+
+    {
+		
+		"uname" : "harsh561",
+		"pass" : "Harsh@555",
+		"rpass" : "Harsh@555",
+        "fname" : "Harsh",
+        "lname" : "Gupta",
+        "email" : "harsh1@gmail.com",
+        "phone" : "5468975259",
+        "addr1" : "Data Digamber",
+        "addr2" : "Karvenagar",
+        "city" : "Pune",
+		"state" : "Maharashtra",
+		"zip" : "411052",
+		"country" : "India"
+		
+    } ,
+
+    {
+       "uname" : "johnwatson174",
+		"pass" : "Jhon@123",
+		"rpass" : "Jhon@123",
+        "fname" : "Jhon",
+        "lname" : "Watson",
+        "email" : "jhonwatson@gmail.com",
+        "phone" : "9254789561",
+        "addr1" : "Rowden Street",
+        "addr2" : "Khau Gali",
+        "city" : "Kolkata",
+		"state" : "West Bengal",
+		"zip" : "411022",
+		"country" : "India"
+    }
+
+]

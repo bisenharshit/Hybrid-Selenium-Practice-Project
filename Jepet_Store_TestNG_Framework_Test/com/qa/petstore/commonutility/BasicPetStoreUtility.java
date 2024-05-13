@@ -1,7 +1,10 @@
 package com.qa.petstore.commonutility;
 
 import java.io.File;
+import java.io.FileInputStream;
 import java.io.IOException;
+import java.util.Properties;
+
 import org.apache.commons.io.FileUtils;
 
 import org.openqa.selenium.OutputType;
@@ -19,6 +22,15 @@ public class BasicPetStoreUtility {
 		File file = new File(System.getProperty("user.dir") + "//Reports//" + testcase + ".png");
 		FileUtils.copyFile(src, file);
 		return System.getProperty("user.dir") + "//Reports//" + testcase + ".png";
+	}
+	
+	
+	public static Properties gettingDataFromPropertyFile() throws IOException {
+		Properties ps = new Properties();
+		FileInputStream fis = new FileInputStream("Jpet_Store_TestNG_Framework_Resources//JPet Properties File//Data.properties");
+		ps.load(fis);
+		return ps;
+		
 	}
 
 	

@@ -1,15 +1,21 @@
 package com.qa.petstore.pageobjects;
 
+import java.io.IOException;
+import java.util.Properties;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
 
+import com.qa.petstore.commonutility.BasicPetStoreUtility;
+
 
 public class ProceedToCheckOutPageObject {
 
 	WebDriver driver;
+	
 	
 	@FindBy(css = "[name='cardType']")
 	WebElement cardType;
@@ -34,8 +40,9 @@ public class ProceedToCheckOutPageObject {
 		PageFactory.initElements(driver, this);
 	}
 	
-	public void Proceed_To_Checkout_Method() throws InterruptedException {
+	public void Proceed_To_Checkout_Method() throws InterruptedException, IOException {
 		JavaScriptPageObjectForScroll j = new JavaScriptPageObjectForScroll(driver);
+		Properties ps = BasicPetStoreUtility.gettingDataFromPropertyFile();
 		Thread.sleep(500);
 		j.javaScriptScrollMethod(0, 350);
 		Thread.sleep(200);
@@ -45,11 +52,11 @@ public class ProceedToCheckOutPageObject {
 	    Thread.sleep(200);
 	    creditCard.clear();
 	    Thread.sleep(500);
-	    creditCard.sendKeys("25645849878825");
+	    creditCard.sendKeys(ps.getProperty("cr"));
 	    Thread.sleep(200);
 	    expiryDate.clear();
 	    Thread.sleep(500);
-	    expiryDate.sendKeys("12/2025");
+	    expiryDate.sendKeys(ps.getProperty("ep"));
 	    Thread.sleep(500);
 	    j.javaScriptScrollMethod(0, 350);
 		Thread.sleep(200);
