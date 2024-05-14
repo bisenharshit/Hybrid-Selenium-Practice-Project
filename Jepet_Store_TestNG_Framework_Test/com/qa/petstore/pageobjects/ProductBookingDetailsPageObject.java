@@ -1,5 +1,6 @@
 package com.qa.petstore.pageobjects;
 
+import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -8,7 +9,8 @@ import org.openqa.selenium.support.PageFactory;
 public class ProductBookingDetailsPageObject {
 
 	WebDriver driver;
-	
+	Logger log = Logger.getLogger(ProductBookingDetailsPageObject.class.getName());	
+
 	
 	@FindBy(xpath = "//*[@id='CenterForm']/form/table[1]/tbody/tr")
 	WebElement orderno;
@@ -29,6 +31,7 @@ public class ProductBookingDetailsPageObject {
 	
 	
 	public void Product_Booking_Details_Method() throws InterruptedException {
+		log.info("****************!!Product_Booking_Details!!Class!!Starts!!***************");
 		JavaScriptPageObjectForScroll j = new JavaScriptPageObjectForScroll(driver);
 		Thread.sleep(500);
 		j.javaScriptScrollMethod(0, 350);
@@ -52,5 +55,6 @@ public class ProductBookingDetailsPageObject {
 		System.out.println(shipping1+" ");
 		System.out.println();
 		Confirm.click();
+		log.info("****************!!Product_Booking_Details!!Class!!Ends!!***************");
 	}
 }

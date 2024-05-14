@@ -1,5 +1,6 @@
 package com.qa.petstore.pageobjects;
 
+import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -9,7 +10,7 @@ import org.openqa.selenium.support.ui.Select;
 public class SignUpPageObject {
 
 	WebDriver driver;
-
+    Logger log = Logger.getLogger(SignUpPageObject.class.getName());
 	@FindBy(xpath = "//a[text()='Sign Up']")
 	WebElement Signup;
 
@@ -73,7 +74,7 @@ public class SignUpPageObject {
 	}
 
 	public void SignUp_Method(String un, String ps, String rps,String fn, String ln, String em, String phn, String adr1, String adr2, String cty, String st, String zp, String con) throws InterruptedException {
-
+        log.info("*********************!!SignUp!!Class!!Starts!!********************");
 		Signup.click();
 		JavaScriptPageObjectForScroll j = new JavaScriptPageObjectForScroll(driver);
 		j.javaScriptScrollMethod(0, 350);
@@ -105,6 +106,6 @@ public class SignUpPageObject {
 		bannerOption.click();
 		Thread.sleep(200);
 		button.click();
-
+		log.info("*********************!!SignUp!!Class!!Ends!!********************");
 	}
 }

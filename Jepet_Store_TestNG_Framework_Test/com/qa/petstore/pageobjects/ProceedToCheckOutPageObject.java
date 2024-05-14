@@ -3,6 +3,7 @@ package com.qa.petstore.pageobjects;
 import java.io.IOException;
 import java.util.Properties;
 
+import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -16,7 +17,8 @@ public class ProceedToCheckOutPageObject {
 
 	WebDriver driver;
 	
-	
+	Logger log = Logger.getLogger(ProceedToCheckOutPageObject.class.getName());	
+
 	@FindBy(css = "[name='cardType']")
 	WebElement cardType;
 	
@@ -41,6 +43,7 @@ public class ProceedToCheckOutPageObject {
 	}
 	
 	public void Proceed_To_Checkout_Method() throws InterruptedException, IOException {
+		log.info("****************!!Proceed_To_Checkout!!Class!!Starts!!***************");
 		JavaScriptPageObjectForScroll j = new JavaScriptPageObjectForScroll(driver);
 		Properties ps = BasicPetStoreUtility.gettingDataFromPropertyFile();
 		Thread.sleep(500);
@@ -70,6 +73,7 @@ public class ProceedToCheckOutPageObject {
 	    Continue1.click();
 	    // To go back from the page please click below webelement
 	    // driver.findElement(By.xpath("//button[text()='Back']")).click();	
+		log.info("****************!!Proceed_To_Checkout!!Class!!Ends!!***************");
 	    
 	}
 }

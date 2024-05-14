@@ -2,98 +2,90 @@
 <testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-05-13T16:30:45 IST" name="Suite" finished-at="2024-05-13T16:31:09 IST" duration-ms="23857">
+  <suite started-at="2024-05-15T01:06:09 IST" name="Suite" finished-at="2024-05-15T01:06:34 IST" duration-ms="24832">
     <groups>
     </groups>
-    <test started-at="2024-05-13T16:30:45 IST" name="Test" finished-at="2024-05-13T16:31:09 IST" duration-ms="23857">
+    <test started-at="2024-05-15T01:06:09 IST" name="Test" finished-at="2024-05-15T01:06:34 IST" duration-ms="24832">
       <class name="com.qa.petstore.test.PetStoreTest">
-        <test-method is-config="true" signature="basicConfigSetup()[pri:0, instance:com.qa.petstore.test.PetStoreTest@7164ca4c]" started-at="2024-05-13T16:30:43 IST" name="basicConfigSetup" finished-at="2024-05-13T16:30:45 IST" duration-ms="2261" status="PASS">
+        <test-method is-config="true" signature="basicConfigSetup()[pri:0, instance:com.qa.petstore.test.PetStoreTest@29a0cdb]" started-at="2024-05-15T01:06:06 IST" name="basicConfigSetup" finished-at="2024-05-15T01:06:09 IST" duration-ms="3270" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- basicConfigSetup -->
-        <test-method is-config="true" signature="windowUrlSetupWithExtentReporter()[pri:0, instance:com.qa.petstore.test.PetStoreTest@7164ca4c]" started-at="2024-05-13T16:30:45 IST" name="windowUrlSetupWithExtentReporter" finished-at="2024-05-13T16:30:47 IST" duration-ms="1844" status="PASS">
+        <test-method is-config="true" signature="windowUrlSetupWithExtentReporter()[pri:0, instance:com.qa.petstore.test.PetStoreTest@29a0cdb]" started-at="2024-05-15T01:06:09 IST" name="windowUrlSetupWithExtentReporter" finished-at="2024-05-15T01:06:12 IST" duration-ms="2304" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- windowUrlSetupWithExtentReporter -->
-        <test-method is-config="true" signature="windowSizeSetup()[pri:0, instance:com.qa.petstore.test.PetStoreTest@7164ca4c]" started-at="2024-05-13T16:30:47 IST" name="windowSizeSetup" finished-at="2024-05-13T16:30:47 IST" duration-ms="138" status="PASS">
+        <test-method is-config="true" signature="windowSizeSetup()[pri:0, instance:com.qa.petstore.test.PetStoreTest@29a0cdb]" started-at="2024-05-15T01:06:12 IST" name="windowSizeSetup" finished-at="2024-05-15T01:06:12 IST" duration-ms="214" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- windowSizeSetup -->
-        <test-method is-config="true" signature="cookiesGettingSetup()[pri:0, instance:com.qa.petstore.test.PetStoreTest@7164ca4c]" started-at="2024-05-13T16:30:47 IST" name="cookiesGettingSetup" finished-at="2024-05-13T16:30:47 IST" duration-ms="20" status="PASS">
+        <test-method is-config="true" signature="cookiesGettingSetup()[pri:0, instance:com.qa.petstore.test.PetStoreTest@29a0cdb]" started-at="2024-05-15T01:06:12 IST" name="cookiesGettingSetup" finished-at="2024-05-15T01:06:12 IST" duration-ms="33" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cookiesGettingSetup -->
-        <test-method signature="testCase_1_Landing_On_HomePage_with_Scroll()[pri:1, instance:com.qa.petstore.test.PetStoreTest@7164ca4c]" started-at="2024-05-13T16:30:47 IST" name="testCase_1_Landing_On_HomePage_with_Scroll" finished-at="2024-05-13T16:30:47 IST" duration-ms="38" status="PASS">
+        <test-method signature="testCase_1_Landing_On_HomePage_with_Scroll()[pri:1, instance:com.qa.petstore.test.PetStoreTest@29a0cdb]" started-at="2024-05-15T01:06:12 IST" name="testCase_1_Landing_On_HomePage_with_Scroll" finished-at="2024-05-15T01:06:12 IST" duration-ms="58" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCase_1_Landing_On_HomePage_with_Scroll -->
-        <test-method is-config="true" signature="cookiesGettingSetup()[pri:0, instance:com.qa.petstore.test.PetStoreTest@7164ca4c]" started-at="2024-05-13T16:30:48 IST" name="cookiesGettingSetup" finished-at="2024-05-13T16:30:48 IST" duration-ms="8" status="PASS">
+        <test-method is-config="true" signature="cookiesGettingSetup()[pri:0, instance:com.qa.petstore.test.PetStoreTest@29a0cdb]" started-at="2024-05-15T01:06:12 IST" name="cookiesGettingSetup" finished-at="2024-05-15T01:06:12 IST" duration-ms="12" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cookiesGettingSetup -->
-        <test-method signature="testcase_2_SignUp_On_Website(java.util.Map)[pri:2, instance:com.qa.petstore.test.PetStoreTest@7164ca4c]" started-at="2024-05-13T16:30:48 IST" name="testcase_2_SignUp_On_Website" data-provider="getData" finished-at="2024-05-13T16:30:52 IST" duration-ms="4922" status="PASS">
+        <test-method signature="testcase_2_SignUp_On_Website(java.util.Map)[pri:2, instance:com.qa.petstore.test.PetStoreTest@29a0cdb]" started-at="2024-05-15T01:06:12 IST" name="testcase_2_SignUp_On_Website" data-provider="getData" finished-at="2024-05-15T01:06:17 IST" duration-ms="4914" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{zip=411052, fname=Harsh, country=India, uname=harsh561, addr2=Karvenagar, pass=Harsh@555, addr1=Data Digamber, city=Pune, lname=Gupta, phone=5468975259, rpass=Harsh@555, state=Maharashtra, email=harsh1@gmail.com}]]>
+                <![CDATA[{zip=411052, fname=Harsh, country=India, uname=harsh567, addr2=Karvenagar, pass=Harsh@555, addr1=Data Digamber, city=Pune, lname=Gupta, phone=5468975259, rpass=Harsh@555, state=Maharashtra, email=harsh1@gmail.com}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testcase_2_SignUp_On_Website -->
-        <test-method is-config="true" signature="cookiesGettingSetup()[pri:0, instance:com.qa.petstore.test.PetStoreTest@7164ca4c]" started-at="2024-05-13T16:30:53 IST" name="cookiesGettingSetup" finished-at="2024-05-13T16:30:53 IST" duration-ms="44" status="PASS">
+        <test-method is-config="true" signature="cookiesGettingSetup()[pri:0, instance:com.qa.petstore.test.PetStoreTest@29a0cdb]" started-at="2024-05-15T01:06:17 IST" name="cookiesGettingSetup" finished-at="2024-05-15T01:06:17 IST" duration-ms="33" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cookiesGettingSetup -->
-        <test-method signature="testcase_3_SignIn_On_Website()[pri:3, instance:com.qa.petstore.test.PetStoreTest@7164ca4c]" started-at="2024-05-13T16:30:53 IST" name="testcase_3_SignIn_On_Website" finished-at="2024-05-13T16:30:55 IST" duration-ms="2619" status="PASS">
+        <test-method signature="testcase_3_SignIn_On_Website()[pri:3, instance:com.qa.petstore.test.PetStoreTest@29a0cdb]" started-at="2024-05-15T01:06:17 IST" name="testcase_3_SignIn_On_Website" finished-at="2024-05-15T01:06:20 IST" duration-ms="2696" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testcase_3_SignIn_On_Website -->
-        <test-method is-config="true" signature="cookiesGettingSetup()[pri:0, instance:com.qa.petstore.test.PetStoreTest@7164ca4c]" started-at="2024-05-13T16:30:55 IST" name="cookiesGettingSetup" finished-at="2024-05-13T16:30:56 IST" duration-ms="669" status="PASS">
+        <test-method is-config="true" signature="cookiesGettingSetup()[pri:0, instance:com.qa.petstore.test.PetStoreTest@29a0cdb]" started-at="2024-05-15T01:06:20 IST" name="cookiesGettingSetup" finished-at="2024-05-15T01:06:20 IST" duration-ms="566" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cookiesGettingSetup -->
-        <test-method signature="testcase_4_AddToCart_On_Website()[pri:4, instance:com.qa.petstore.test.PetStoreTest@7164ca4c]" started-at="2024-05-13T16:30:56 IST" name="testcase_4_AddToCart_On_Website" finished-at="2024-05-13T16:31:00 IST" duration-ms="4200" status="PASS">
+        <test-method signature="testcase_4_AddToCart_On_Website()[pri:4, instance:com.qa.petstore.test.PetStoreTest@29a0cdb]" started-at="2024-05-15T01:06:20 IST" name="testcase_4_AddToCart_On_Website" finished-at="2024-05-15T01:06:25 IST" duration-ms="4548" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testcase_4_AddToCart_On_Website -->
-        <test-method is-config="true" signature="cookiesGettingSetup()[pri:0, instance:com.qa.petstore.test.PetStoreTest@7164ca4c]" started-at="2024-05-13T16:31:00 IST" name="cookiesGettingSetup" finished-at="2024-05-13T16:31:00 IST" duration-ms="48" status="PASS">
+        <test-method is-config="true" signature="cookiesGettingSetup()[pri:0, instance:com.qa.petstore.test.PetStoreTest@29a0cdb]" started-at="2024-05-15T01:06:25 IST" name="cookiesGettingSetup" finished-at="2024-05-15T01:06:25 IST" duration-ms="47" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cookiesGettingSetup -->
-        <test-method signature="testcase_5_Proceed_To_Checkout_On_Website()[pri:5, instance:com.qa.petstore.test.PetStoreTest@7164ca4c]" started-at="2024-05-13T16:31:00 IST" name="testcase_5_Proceed_To_Checkout_On_Website" finished-at="2024-05-13T16:31:05 IST" duration-ms="4990" status="PASS">
+        <test-method signature="testcase_5_Proceed_To_Checkout_On_Website()[pri:5, instance:com.qa.petstore.test.PetStoreTest@29a0cdb]" started-at="2024-05-15T01:06:25 IST" name="testcase_5_Proceed_To_Checkout_On_Website" finished-at="2024-05-15T01:06:30 IST" duration-ms="4971" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testcase_5_Proceed_To_Checkout_On_Website -->
-        <test-method is-config="true" signature="cookiesGettingSetup()[pri:0, instance:com.qa.petstore.test.PetStoreTest@7164ca4c]" started-at="2024-05-13T16:31:05 IST" name="cookiesGettingSetup" finished-at="2024-05-13T16:31:05 IST" duration-ms="35" status="PASS">
+        <test-method is-config="true" signature="cookiesGettingSetup()[pri:0, instance:com.qa.petstore.test.PetStoreTest@29a0cdb]" started-at="2024-05-15T01:06:30 IST" name="cookiesGettingSetup" finished-at="2024-05-15T01:06:30 IST" duration-ms="26" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cookiesGettingSetup -->
-        <test-method signature="testcase_6_Product_Booking_Details_On_Website()[pri:6, instance:com.qa.petstore.test.PetStoreTest@7164ca4c]" started-at="2024-05-13T16:31:05 IST" name="testcase_6_Product_Booking_Details_On_Website" finished-at="2024-05-13T16:31:07 IST" duration-ms="1564" status="PASS">
+        <test-method signature="testcase_6_Product_Booking_Details_On_Website()[pri:6, instance:com.qa.petstore.test.PetStoreTest@29a0cdb]" started-at="2024-05-15T01:06:30 IST" name="testcase_6_Product_Booking_Details_On_Website" finished-at="2024-05-15T01:06:32 IST" duration-ms="1499" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testcase_6_Product_Booking_Details_On_Website -->
-        <test-method is-config="true" signature="cookiesGettingSetup()[pri:0, instance:com.qa.petstore.test.PetStoreTest@7164ca4c]" started-at="2024-05-13T16:31:07 IST" name="cookiesGettingSetup" finished-at="2024-05-13T16:31:07 IST" duration-ms="42" status="PASS">
+        <test-method is-config="true" signature="cookiesGettingSetup()[pri:0, instance:com.qa.petstore.test.PetStoreTest@29a0cdb]" started-at="2024-05-15T01:06:32 IST" name="cookiesGettingSetup" finished-at="2024-05-15T01:06:32 IST" duration-ms="51" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cookiesGettingSetup -->
-        <test-method signature="testcase_7_SignOut_On_Website()[pri:7, instance:com.qa.petstore.test.PetStoreTest@7164ca4c]" started-at="2024-05-13T16:31:07 IST" name="testcase_7_SignOut_On_Website" finished-at="2024-05-13T16:31:09 IST" duration-ms="2340" status="PASS">
+        <test-method signature="testcase_7_SignOut_On_Website()[pri:7, instance:com.qa.petstore.test.PetStoreTest@29a0cdb]" started-at="2024-05-15T01:06:32 IST" name="testcase_7_SignOut_On_Website" finished-at="2024-05-15T01:06:34 IST" duration-ms="2428" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testcase_7_SignOut_On_Website -->
-        <test-method is-config="true" signature="cookies_Deleting_Setup()[pri:0, instance:com.qa.petstore.test.PetStoreTest@7164ca4c]" started-at="2024-05-13T16:31:09 IST" name="cookies_Deleting_Setup" finished-at="2024-05-13T16:31:09 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.petstore.test.PetStoreTest@29a0cdb]" started-at="2024-05-15T01:06:35 IST" name="tearDown" finished-at="2024-05-15T01:06:38 IST" duration-ms="3268" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- cookies_Deleting_Setup -->
-        <test-method is-config="true" signature="project_Database_Config_setup()[pri:0, instance:com.qa.petstore.test.PetStoreTest@7164ca4c]" started-at="2024-05-13T16:31:09 IST" name="project_Database_Config_setup" finished-at="2024-05-13T16:31:09 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- project_Database_Config_setup -->
-        <test-method is-config="true" signature="closing_All_The_Resources()[pri:0, instance:com.qa.petstore.test.PetStoreTest@7164ca4c]" started-at="2024-05-13T16:31:10 IST" name="closing_All_The_Resources" finished-at="2024-05-13T16:31:13 IST" duration-ms="3227" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closing_All_The_Resources -->
+        </test-method> <!-- tearDown -->
       </class> <!-- com.qa.petstore.test.PetStoreTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->

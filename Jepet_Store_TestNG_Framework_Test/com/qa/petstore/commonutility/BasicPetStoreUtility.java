@@ -6,10 +6,12 @@ import java.io.IOException;
 import java.util.Properties;
 
 import org.apache.commons.io.FileUtils;
-
+import org.apache.log4j.Logger;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
+
+import com.qa.petstore.test.PetStoreTest;
 
 
 public class BasicPetStoreUtility {
@@ -32,6 +34,9 @@ public class BasicPetStoreUtility {
 		return ps;
 		
 	}
+	
+	
+	
 
 	
 }
