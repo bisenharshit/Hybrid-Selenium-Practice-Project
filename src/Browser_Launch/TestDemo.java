@@ -4,11 +4,14 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
 
 
-public class Test {
+public class TestDemo {
 
-	public static void main(String[] args) throws InterruptedException {
+	//public static void main(String[] args) throws InterruptedException {
+	@Test
+	public void config() throws InterruptedException {
 		System.out.println("!!**Hello This is Selenium Automation**!!"
 				+ "This is Selenium Browser Launch Script"
 				+ "This Script written by Harshit Bisen");

@@ -1,92 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-05-15T01:06:09 IST" name="Suite" finished-at="2024-05-15T01:06:34 IST" duration-ms="24832">
+  <suite started-at="2024-06-28T00:33:12 IST" name="Default suite" finished-at="2024-06-28T00:34:12 IST" duration-ms="59754">
     <groups>
     </groups>
-    <test started-at="2024-05-15T01:06:09 IST" name="Test" finished-at="2024-05-15T01:06:34 IST" duration-ms="24832">
-      <class name="com.qa.petstore.test.PetStoreTest">
-        <test-method is-config="true" signature="basicConfigSetup()[pri:0, instance:com.qa.petstore.test.PetStoreTest@29a0cdb]" started-at="2024-05-15T01:06:06 IST" name="basicConfigSetup" finished-at="2024-05-15T01:06:09 IST" duration-ms="3270" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- basicConfigSetup -->
-        <test-method is-config="true" signature="windowUrlSetupWithExtentReporter()[pri:0, instance:com.qa.petstore.test.PetStoreTest@29a0cdb]" started-at="2024-05-15T01:06:09 IST" name="windowUrlSetupWithExtentReporter" finished-at="2024-05-15T01:06:12 IST" duration-ms="2304" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- windowUrlSetupWithExtentReporter -->
-        <test-method is-config="true" signature="windowSizeSetup()[pri:0, instance:com.qa.petstore.test.PetStoreTest@29a0cdb]" started-at="2024-05-15T01:06:12 IST" name="windowSizeSetup" finished-at="2024-05-15T01:06:12 IST" duration-ms="214" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- windowSizeSetup -->
-        <test-method is-config="true" signature="cookiesGettingSetup()[pri:0, instance:com.qa.petstore.test.PetStoreTest@29a0cdb]" started-at="2024-05-15T01:06:12 IST" name="cookiesGettingSetup" finished-at="2024-05-15T01:06:12 IST" duration-ms="33" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- cookiesGettingSetup -->
-        <test-method signature="testCase_1_Landing_On_HomePage_with_Scroll()[pri:1, instance:com.qa.petstore.test.PetStoreTest@29a0cdb]" started-at="2024-05-15T01:06:12 IST" name="testCase_1_Landing_On_HomePage_with_Scroll" finished-at="2024-05-15T01:06:12 IST" duration-ms="58" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCase_1_Landing_On_HomePage_with_Scroll -->
-        <test-method is-config="true" signature="cookiesGettingSetup()[pri:0, instance:com.qa.petstore.test.PetStoreTest@29a0cdb]" started-at="2024-05-15T01:06:12 IST" name="cookiesGettingSetup" finished-at="2024-05-15T01:06:12 IST" duration-ms="12" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- cookiesGettingSetup -->
-        <test-method signature="testcase_2_SignUp_On_Website(java.util.Map)[pri:2, instance:com.qa.petstore.test.PetStoreTest@29a0cdb]" started-at="2024-05-15T01:06:12 IST" name="testcase_2_SignUp_On_Website" data-provider="getData" finished-at="2024-05-15T01:06:17 IST" duration-ms="4914" status="PASS">
+    <test started-at="2024-06-28T00:33:12 IST" name="Default test" finished-at="2024-06-28T00:34:12 IST" duration-ms="59754">
+      <class name="TestNG_Annotation_Flow.TestNGDataProvider">
+        <test-method signature="testCase1(java.util.List)[pri:0, instance:TestNG_Annotation_Flow.TestNGDataProvider@b62d79]" started-at="2024-06-28T00:33:12 IST" name="testCase1" data-provider="getData" finished-at="2024-06-28T00:33:33 IST" duration-ms="21251" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{zip=411052, fname=Harsh, country=India, uname=harsh567, addr2=Karvenagar, pass=Harsh@555, addr1=Data Digamber, city=Pune, lname=Gupta, phone=5468975259, rpass=Harsh@555, state=Maharashtra, email=harsh1@gmail.com}]]>
+                <![CDATA[[QQQQ, qqqq]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testcase_2_SignUp_On_Website -->
-        <test-method is-config="true" signature="cookiesGettingSetup()[pri:0, instance:com.qa.petstore.test.PetStoreTest@29a0cdb]" started-at="2024-05-15T01:06:17 IST" name="cookiesGettingSetup" finished-at="2024-05-15T01:06:17 IST" duration-ms="33" status="PASS">
+        </test-method> <!-- testCase1 -->
+        <test-method signature="testCase1(java.util.List)[pri:0, instance:TestNG_Annotation_Flow.TestNGDataProvider@b62d79]" started-at="2024-06-28T00:33:33 IST" name="testCase1" data-provider="getData" finished-at="2024-06-28T00:33:54 IST" duration-ms="20494" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[ZZZZ, zzzz]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- cookiesGettingSetup -->
-        <test-method signature="testcase_3_SignIn_On_Website()[pri:3, instance:com.qa.petstore.test.PetStoreTest@29a0cdb]" started-at="2024-05-15T01:06:17 IST" name="testcase_3_SignIn_On_Website" finished-at="2024-05-15T01:06:20 IST" duration-ms="2696" status="PASS">
+        </test-method> <!-- testCase1 -->
+        <test-method signature="testCase1(java.util.List)[pri:0, instance:TestNG_Annotation_Flow.TestNGDataProvider@b62d79]" started-at="2024-06-28T00:33:54 IST" name="testCase1" data-provider="getData" finished-at="2024-06-28T00:34:12 IST" duration-ms="17937" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[PPPP, pppp]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testcase_3_SignIn_On_Website -->
-        <test-method is-config="true" signature="cookiesGettingSetup()[pri:0, instance:com.qa.petstore.test.PetStoreTest@29a0cdb]" started-at="2024-05-15T01:06:20 IST" name="cookiesGettingSetup" finished-at="2024-05-15T01:06:20 IST" duration-ms="566" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- cookiesGettingSetup -->
-        <test-method signature="testcase_4_AddToCart_On_Website()[pri:4, instance:com.qa.petstore.test.PetStoreTest@29a0cdb]" started-at="2024-05-15T01:06:20 IST" name="testcase_4_AddToCart_On_Website" finished-at="2024-05-15T01:06:25 IST" duration-ms="4548" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testcase_4_AddToCart_On_Website -->
-        <test-method is-config="true" signature="cookiesGettingSetup()[pri:0, instance:com.qa.petstore.test.PetStoreTest@29a0cdb]" started-at="2024-05-15T01:06:25 IST" name="cookiesGettingSetup" finished-at="2024-05-15T01:06:25 IST" duration-ms="47" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- cookiesGettingSetup -->
-        <test-method signature="testcase_5_Proceed_To_Checkout_On_Website()[pri:5, instance:com.qa.petstore.test.PetStoreTest@29a0cdb]" started-at="2024-05-15T01:06:25 IST" name="testcase_5_Proceed_To_Checkout_On_Website" finished-at="2024-05-15T01:06:30 IST" duration-ms="4971" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testcase_5_Proceed_To_Checkout_On_Website -->
-        <test-method is-config="true" signature="cookiesGettingSetup()[pri:0, instance:com.qa.petstore.test.PetStoreTest@29a0cdb]" started-at="2024-05-15T01:06:30 IST" name="cookiesGettingSetup" finished-at="2024-05-15T01:06:30 IST" duration-ms="26" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- cookiesGettingSetup -->
-        <test-method signature="testcase_6_Product_Booking_Details_On_Website()[pri:6, instance:com.qa.petstore.test.PetStoreTest@29a0cdb]" started-at="2024-05-15T01:06:30 IST" name="testcase_6_Product_Booking_Details_On_Website" finished-at="2024-05-15T01:06:32 IST" duration-ms="1499" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testcase_6_Product_Booking_Details_On_Website -->
-        <test-method is-config="true" signature="cookiesGettingSetup()[pri:0, instance:com.qa.petstore.test.PetStoreTest@29a0cdb]" started-at="2024-05-15T01:06:32 IST" name="cookiesGettingSetup" finished-at="2024-05-15T01:06:32 IST" duration-ms="51" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- cookiesGettingSetup -->
-        <test-method signature="testcase_7_SignOut_On_Website()[pri:7, instance:com.qa.petstore.test.PetStoreTest@29a0cdb]" started-at="2024-05-15T01:06:32 IST" name="testcase_7_SignOut_On_Website" finished-at="2024-05-15T01:06:34 IST" duration-ms="2428" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testcase_7_SignOut_On_Website -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.petstore.test.PetStoreTest@29a0cdb]" started-at="2024-05-15T01:06:35 IST" name="tearDown" finished-at="2024-05-15T01:06:38 IST" duration-ms="3268" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.qa.petstore.test.PetStoreTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- testCase1 -->
+      </class> <!-- TestNG_Annotation_Flow.TestNGDataProvider -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

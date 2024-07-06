@@ -29,7 +29,7 @@ public class WinowHandling {
 		driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		driver.get("https://www.rahulshettyacademy.com/AutomationPractice/");
-
+        
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		js.executeScript("scrollBy(0, 4400)");
 
@@ -50,6 +50,7 @@ public class WinowHandling {
 		String data1 =  data.getAttribute("value");
 		System.out.println(data1);
 		Thread.sleep(3000);
+	    
 		driver.quit();
 	}
 }

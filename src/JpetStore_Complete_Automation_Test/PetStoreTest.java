@@ -11,13 +11,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.ui.Select;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.BeforeSuite;
-import org.testng.annotations.BeforeTest;
-import org.testng.annotations.Test;
-
 import io.github.bonigarcia.wdm.WebDriverManager;
+import org.testng.annotations.*;
 
 public class PetStoreTest {
 
@@ -25,6 +20,7 @@ public class PetStoreTest {
 	JavascriptExecutor js;
 	String username = "johnwatson137";
 	String password = "Jhon@123";
+	
 	@BeforeSuite
 	public void basicConfigSetup() {
 		WebDriverManager.chromedriver().setup();
